@@ -50,9 +50,9 @@ Sistem error handling untuk membedakan jenis kesalahan:
 ---
 
 ## 🚀 Cara Menjalankan
-Clone repository ini.
-Jalankan flutter pub get untuk mengunduh dependencies (http, provider, shared_preferences, shimmer).
-Jalankan aplikasi dengan flutter run.
+1. Clone repository ini.
+2. Jalankan flutter pub get untuk mengunduh dependencies (http, provider, shared_preferences, shimmer).
+3. Jalankan aplikasi dengan flutter run.
 
 --- 
 
