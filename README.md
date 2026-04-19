@@ -28,12 +28,12 @@ Aplikasi ini menggunakan Provider sebagai solusi State Management karena:
 ---
 
 ## ✨ Fitur Utama & Penjelasan Teknis
-**1. Offline Readiness (Caching)**
+**1. Offline Readiness (Caching)**,
 Aplikasi menggunakan SharedPreferences untuk menyimpan data cuaca terakhir yang berhasil diambil.
 - Saat koneksi internet terputus, aplikasi tidak akan menampilkan layar kosong, melainkan mengambil data dari cache.
 - Terdapat Banner Offline yang muncul secara otomatis untuk memberi tahu pengguna bahwa data yang dilihat adalah data terakhir yang tersimpan.
 
-**2. Smart Error Handling**
+**2. Smart Error Handling**,
 Sistem error handling untuk membedakan jenis kesalahan:
 - Kota Tidak Ditemukan: Jika user typo, aplikasi akan menampilkan pesan "Kota tidak ditemukan" tanpa mengaktifkan mode offline.
 - Masalah Jaringan: Jika internet mati, aplikasi akan beralih ke data cache jika tersedia.
